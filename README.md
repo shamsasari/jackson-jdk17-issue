@@ -10,5 +10,5 @@ e: Module com.fasterxml.jackson.databind cannot be found in the module graph
 
 Simply run ` ./gradlew clean classes` to reproduce the error.
 
-This issue seems to with all JDK versions from 9 onwards, including 11, and it seems to be specific to Kotlin.
+This issue seems to occur with all JDK versions from 9 onwards, including 11, and it seems to be specific to Kotlin.
 Converting this to a Java project will cause the issue to go away.
