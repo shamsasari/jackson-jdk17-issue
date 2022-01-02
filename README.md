@@ -1,4 +1,4 @@
-# Jackson Java Module Issue
+# Jackson Kotlin Java Modules Issue
 
 This is a bare bones Gradle project which reproduces [the issue](https://github.com/FasterXML/jackson-databind/issues/3319)
 in Jackson 2.13.x whereby a _Kotlin_ project which has Java modules enabled encounters the following error:
